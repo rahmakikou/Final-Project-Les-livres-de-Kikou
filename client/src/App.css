@@ -1,0 +1,120 @@
+ 
+ body{
+  background-color: aliceblue;
+ }
+ 
+
+.accueil{
+  display: flex;
+  justify-content: center;  
+  flex-direction: column; 
+  flex-wrap: wrap; 
+   margin: 60px; 
+   margin-left: 570px;
+   padding: 35px; 
+   padding-left: 35px;
+   background-color: rgb(250, 250, 250);
+   width: 460px;
+   border-radius: 35px; 
+   background-image: url("auteurs1.jpeg")
+
+}
+
+
+.audio{
+  margin-top: "30px";
+}
+
+
+.onebook{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap
+  }
+
+
+ 
+.affichage{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ margin: 40px;
+ padding: 40px;  
+}
+
+ 
+
+.nav{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 25px;
+  background-color: #FFD1DC;
+ 
+} 
+
+.home{
+  display: flex;
+  justify-content: center;
+  margin: 7px; 
+  padding: 25px; 
+font-size: "18px";
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center; 
+  background-color: #EFCFEE; 
+  border-radius: 55px;
+  width: 370px;
+  height: 70px;
+  
+}
+ 
+
+
+
+.One:hover{
+  font-size:30px;  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;   
+  background-color:#e88ba0;
+  border-radius: 50%;
+}
+
+
+
+ .lista{
+  display: flex;  
+  justify-content: space-between;    
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 30px;
+}
+
+ .fless{
+    display: flex;
+    justify-content : space-between; 
+    margin: 10px;
+    padding: 20px; 
+    
+
+ }
+
+ .details{
+   text-align: center;
+   font-family: cursive; 
+   font-size: larger;
+ }
+
+ .zina{
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: xx-large;
+ }
+
+ .profile1{
+  display: flex;
+  justify-content: space-around;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic; 
+  
+ }
